@@ -29,11 +29,11 @@ require_once 'includes/header.php';
       
       <div class="program-card reveal">
         <div class="program-card-img">
-          <img src="<?php echo url('assets/images/faculty/inamdar-sir.jpg'); ?>" alt="President Message">
+          <img src="<?php echo url('assets/images/faculty/abeda_madam.jpg'); ?>" alt="President Message" style="object-position: top center;">
         </div>
         <div class="program-card-body" style="text-align: center;">
           <h3>President's Message</h3>
-          <p>Read the inspiring message from our honorable President Dr. P. A. Inamdar.</p>
+          <p>Read the inspiring message from our honorable President Mrs. Abeda Inamdar.</p>
           <a href="<?php echo url('president-message.php'); ?>" class="btn btn-primary" style="margin-top: 15px;">Read Message</a>
         </div>
       </div>
@@ -51,7 +51,7 @@ require_once 'includes/header.php';
       
       <div class="program-card reveal">
         <div class="program-card-img">
-          <img src="<?php echo url('assets/images/real/about-img.jpg'); ?>" alt="Mission and Vision" style="object-fit: cover;">
+          <img src="<?php echo asset('images/real/about-img.png'); ?>" alt="Mission and Vision" style="object-fit: cover; object-position: center;">
         </div>
         <div class="program-card-body" style="text-align: center;">
           <h3>Mission & Vision</h3>
